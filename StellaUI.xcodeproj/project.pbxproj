@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F0FD1EA285345B700C4569F /* StellaUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0FD1E9285345B700C4569F /* StellaUIApp.swift */; };
+		2F0FD1EC285345B700C4569F /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0FD1EB285345B700C4569F /* Persistence.swift */; };
+		2F0FD1EF285345B700C4569F /* StellaUI.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2F0FD1ED285345B700C4569F /* StellaUI.xcdatamodeld */; };
+		2F0FD1F1285345B700C4569F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0FD1F0285345B700C4569F /* ContentView.swift */; };
+		2F0FD1F3285345B800C4569F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F0FD1F2285345B800C4569F /* Assets.xcassets */; };
+		2F0FD1F7285345B800C4569F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F0FD1F6285345B800C4569F /* Preview Assets.xcassets */; };
+		2F0FD201285345B800C4569F /* StellaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0FD200285345B800C4569F /* StellaUITests.swift */; };
+		2F0FD20B285345B800C4569F /* StellaUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0FD20A285345B800C4569F /* StellaUIUITests.swift */; };
+		2F0FD20D285345B800C4569F /* StellaUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0FD20C285345B800C4569F /* StellaUIUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F0FD1FD285345B800C4569F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F0FD1DE285345B700C4569F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F0FD1E5285345B700C4569F;
+			remoteInfo = StellaUI;
+		};
+		2F0FD207285345B800C4569F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F0FD1DE285345B700C4569F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F0FD1E5285345B700C4569F;
+			remoteInfo = StellaUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F0FD1E6285345B700C4569F /* StellaUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StellaUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F0FD1E9285345B700C4569F /* StellaUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StellaUIApp.swift; sourceTree = "<group>"; };
+		2F0FD1EB285345B700C4569F /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		2F0FD1EE285345B700C4569F /* StellaUI.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StellaUI.xcdatamodel; sourceTree = "<group>"; };
+		2F0FD1F0285345B700C4569F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2F0FD1F2285345B800C4569F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2F0FD1F4285345B800C4569F /* StellaUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StellaUI.entitlements; sourceTree = "<group>"; };
+		2F0FD1F6285345B800C4569F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2F0FD1FC285345B800C4569F /* StellaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StellaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F0FD200285345B800C4569F /* StellaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StellaUITests.swift; sourceTree = "<group>"; };
+		2F0FD206285345B800C4569F /* StellaUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StellaUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F0FD20A285345B800C4569F /* StellaUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StellaUIUITests.swift; sourceTree = "<group>"; };
+		2F0FD20C285345B800C4569F /* StellaUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StellaUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F0FD1E3285345B700C4569F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F0FD1F9285345B800C4569F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F0FD203285345B800C4569F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F0FD1DD285345B700C4569F = {
+			isa = PBXGroup;
+			children = (
+				2F0FD1E8285345B700C4569F /* StellaUI */,
+				2F0FD1FF285345B800C4569F /* StellaUITests */,
+				2F0FD209285345B800C4569F /* StellaUIUITests */,
+				2F0FD1E7285345B700C4569F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2F0FD1E7285345B700C4569F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F0FD1E6285345B700C4569F /* StellaUI.app */,
+				2F0FD1FC285345B800C4569F /* StellaUITests.xctest */,
+				2F0FD206285345B800C4569F /* StellaUIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F0FD1E8285345B700C4569F /* StellaUI */ = {
+			isa = PBXGroup;
+			children = (
+				2F0FD1E9285345B700C4569F /* StellaUIApp.swift */,
+				2F0FD1EB285345B700C4569F /* Persistence.swift */,
+				2F0FD1F0285345B700C4569F /* ContentView.swift */,
+				2F0FD1F2285345B800C4569F /* Assets.xcassets */,
+				2F0FD1F4285345B800C4569F /* StellaUI.entitlements */,
+				2F0FD1ED285345B700C4569F /* StellaUI.xcdatamodeld */,
+				2F0FD1F5285345B800C4569F /* Preview Content */,
+			);
+			path = StellaUI;
+			sourceTree = "<group>";
+		};
+		2F0FD1F5285345B800C4569F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2F0FD1F6285345B800C4569F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2F0FD1FF285345B800C4569F /* StellaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2F0FD200285345B800C4569F /* StellaUITests.swift */,
+			);
+			path = StellaUITests;
+			sourceTree = "<group>";
+		};
+		2F0FD209285345B800C4569F /* StellaUIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2F0FD20A285345B800C4569F /* StellaUIUITests.swift */,
+				2F0FD20C285345B800C4569F /* StellaUIUITestsLaunchTests.swift */,
+			);
+			path = StellaUIUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F0FD1E5285345B700C4569F /* StellaUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F0FD210285345B800C4569F /* Build configuration list for PBXNativeTarget "StellaUI" */;
+			buildPhases = (
+				2F0FD1E2285345B700C4569F /* Sources */,
+				2F0FD1E3285345B700C4569F /* Frameworks */,
+				2F0FD1E4285345B700C4569F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StellaUI;
+			productName = StellaUI;
+			productReference = 2F0FD1E6285345B700C4569F /* StellaUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2F0FD1FB285345B800C4569F /* StellaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F0FD213285345B800C4569F /* Build configuration list for PBXNativeTarget "StellaUITests" */;
+			buildPhases = (
+				2F0FD1F8285345B800C4569F /* Sources */,
+				2F0FD1F9285345B800C4569F /* Frameworks */,
+				2F0FD1FA285345B800C4569F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F0FD1FE285345B800C4569F /* PBXTargetDependency */,
+			);
+			name = StellaUITests;
+			productName = StellaUITests;
+			productReference = 2F0FD1FC285345B800C4569F /* StellaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2F0FD205285345B800C4569F /* StellaUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F0FD216285345B800C4569F /* Build configuration list for PBXNativeTarget "StellaUIUITests" */;
+			buildPhases = (
+				2F0FD202285345B800C4569F /* Sources */,
+				2F0FD203285345B800C4569F /* Frameworks */,
+				2F0FD204285345B800C4569F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F0FD208285345B800C4569F /* PBXTargetDependency */,
+			);
+			name = StellaUIUITests;
+			productName = StellaUIUITests;
+			productReference = 2F0FD206285345B800C4569F /* StellaUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F0FD1DE285345B700C4569F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					2F0FD1E5285345B700C4569F = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					2F0FD1FB285345B800C4569F = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 2F0FD1E5285345B700C4569F;
+					};
+					2F0FD205285345B800C4569F = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 2F0FD1E5285345B700C4569F;
+					};
+				};
+			};
+			buildConfigurationList = 2F0FD1E1285345B700C4569F /* Build configuration list for PBXProject "StellaUI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F0FD1DD285345B700C4569F;
+			productRefGroup = 2F0FD1E7285345B700C4569F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F0FD1E5285345B700C4569F /* StellaUI */,
+				2F0FD1FB285345B800C4569F /* StellaUITests */,
+				2F0FD205285345B800C4569F /* StellaUIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F0FD1E4285345B700C4569F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F0FD1F7285345B800C4569F /* Preview Assets.xcassets in Resources */,
+				2F0FD1F3285345B800C4569F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F0FD1FA285345B800C4569F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F0FD204285345B800C4569F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F0FD1E2285345B700C4569F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F0FD1EA285345B700C4569F /* StellaUIApp.swift in Sources */,
+				2F0FD1EF285345B700C4569F /* StellaUI.xcdatamodeld in Sources */,
+				2F0FD1F1285345B700C4569F /* ContentView.swift in Sources */,
+				2F0FD1EC285345B700C4569F /* Persistence.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F0FD1F8285345B800C4569F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F0FD201285345B800C4569F /* StellaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F0FD202285345B800C4569F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F0FD20D285345B800C4569F /* StellaUIUITestsLaunchTests.swift in Sources */,
+				2F0FD20B285345B800C4569F /* StellaUIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F0FD1FE285345B800C4569F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F0FD1E5285345B700C4569F /* StellaUI */;
+			targetProxy = 2F0FD1FD285345B800C4569F /* PBXContainerItemProxy */;
+		};
+		2F0FD208285345B800C4569F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F0FD1E5285345B700C4569F /* StellaUI */;
+			targetProxy = 2F0FD207285345B800C4569F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2F0FD20E285345B800C4569F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2F0FD20F285345B800C4569F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		2F0FD211285345B800C4569F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = StellaUI/StellaUI.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StellaUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 3G54NEN3F6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anapp4that.StellaUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2F0FD212285345B800C4569F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = StellaUI/StellaUI.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StellaUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 3G54NEN3F6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anapp4that.StellaUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2F0FD214285345B800C4569F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3G54NEN3F6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anapp4that.StellaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StellaUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StellaUI";
+			};
+			name = Debug;
+		};
+		2F0FD215285345B800C4569F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3G54NEN3F6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anapp4that.StellaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StellaUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StellaUI";
+			};
+			name = Release;
+		};
+		2F0FD217285345B800C4569F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3G54NEN3F6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anapp4that.StellaUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StellaUI;
+			};
+			name = Debug;
+		};
+		2F0FD218285345B800C4569F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3G54NEN3F6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anapp4that.StellaUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StellaUI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F0FD1E1285345B700C4569F /* Build configuration list for PBXProject "StellaUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F0FD20E285345B800C4569F /* Debug */,
+				2F0FD20F285345B800C4569F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F0FD210285345B800C4569F /* Build configuration list for PBXNativeTarget "StellaUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F0FD211285345B800C4569F /* Debug */,
+				2F0FD212285345B800C4569F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F0FD213285345B800C4569F /* Build configuration list for PBXNativeTarget "StellaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F0FD214285345B800C4569F /* Debug */,
+				2F0FD215285345B800C4569F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F0FD216285345B800C4569F /* Build configuration list for PBXNativeTarget "StellaUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F0FD217285345B800C4569F /* Debug */,
+				2F0FD218285345B800C4569F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2F0FD1ED285345B700C4569F /* StellaUI.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2F0FD1EE285345B700C4569F /* StellaUI.xcdatamodel */,
+			);
+			currentVersion = 2F0FD1EE285345B700C4569F /* StellaUI.xcdatamodel */;
+			path = StellaUI.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2F0FD1DE285345B700C4569F /* Project object */;
+}
