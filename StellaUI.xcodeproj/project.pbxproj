@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,19 @@
 		2F0FD201285345B800C4569F /* StellaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0FD200285345B800C4569F /* StellaUITests.swift */; };
 		2F0FD20B285345B800C4569F /* StellaUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0FD20A285345B800C4569F /* StellaUIUITests.swift */; };
 		2F0FD20D285345B800C4569F /* StellaUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0FD20C285345B800C4569F /* StellaUIUITestsLaunchTests.swift */; };
+		2F0FD22628534E2500C4569F /* YourPlanCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0FD22528534E2500C4569F /* YourPlanCell.swift */; };
+		2F0FD22828534E4400C4569F /* WellbeingScoreCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0FD22728534E4400C4569F /* WellbeingScoreCell.swift */; };
+		2F0FD22A28534E6E00C4569F /* WellbeingHistoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0FD22928534E6E00C4569F /* WellbeingHistoryCell.swift */; };
+		2F0FD22D28534F6C00C4569F /* SymptomsSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0FD22C28534F6C00C4569F /* SymptomsSelectView.swift */; };
+		2F0FD22F28534F7F00C4569F /* SymptomsSelectCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0FD22E28534F7F00C4569F /* SymptomsSelectCellView.swift */; };
+		2F0FD2312853560100C4569F /* SymptomsView+Observed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0FD2302853560100C4569F /* SymptomsView+Observed.swift */; };
+		2F0FD2332853569B00C4569F /* Symptom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0FD2322853569B00C4569F /* Symptom.swift */; };
+		2F0FD23728538BF200C4569F /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0FD23628538BF200C4569F /* API.swift */; };
+		2F0FD2392853BAB000C4569F /* OnboardingContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0FD2382853BAB000C4569F /* OnboardingContainerView.swift */; };
+		2F0FD23B2853BB5B00C4569F /* OnboardingContainerView+Observed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0FD23A2853BB5B00C4569F /* OnboardingContainerView+Observed.swift */; };
+		2F0FD23D2853BC7F00C4569F /* OnboardingOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0FD23C2853BC7F00C4569F /* OnboardingOne.swift */; };
+		2F0FD23F2853BCC500C4569F /* SymptomsOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0FD23E2853BCC500C4569F /* SymptomsOrderView.swift */; };
+		2F0FD2432853BD5000C4569F /* SymptomsOrderView+Observed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0FD2422853BD5000C4569F /* SymptomsOrderView+Observed.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +62,19 @@
 		2F0FD206285345B800C4569F /* StellaUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StellaUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F0FD20A285345B800C4569F /* StellaUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StellaUIUITests.swift; sourceTree = "<group>"; };
 		2F0FD20C285345B800C4569F /* StellaUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StellaUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2F0FD22528534E2500C4569F /* YourPlanCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourPlanCell.swift; sourceTree = "<group>"; };
+		2F0FD22728534E4400C4569F /* WellbeingScoreCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WellbeingScoreCell.swift; sourceTree = "<group>"; };
+		2F0FD22928534E6E00C4569F /* WellbeingHistoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WellbeingHistoryCell.swift; sourceTree = "<group>"; };
+		2F0FD22C28534F6C00C4569F /* SymptomsSelectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymptomsSelectView.swift; sourceTree = "<group>"; };
+		2F0FD22E28534F7F00C4569F /* SymptomsSelectCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymptomsSelectCellView.swift; sourceTree = "<group>"; };
+		2F0FD2302853560100C4569F /* SymptomsView+Observed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SymptomsView+Observed.swift"; sourceTree = "<group>"; };
+		2F0FD2322853569B00C4569F /* Symptom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Symptom.swift; sourceTree = "<group>"; };
+		2F0FD23628538BF200C4569F /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		2F0FD2382853BAB000C4569F /* OnboardingContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingContainerView.swift; sourceTree = "<group>"; };
+		2F0FD23A2853BB5B00C4569F /* OnboardingContainerView+Observed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OnboardingContainerView+Observed.swift"; sourceTree = "<group>"; };
+		2F0FD23C2853BC7F00C4569F /* OnboardingOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingOne.swift; sourceTree = "<group>"; };
+		2F0FD23E2853BCC500C4569F /* SymptomsOrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymptomsOrderView.swift; sourceTree = "<group>"; };
+		2F0FD2422853BD5000C4569F /* SymptomsOrderView+Observed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SymptomsOrderView+Observed.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +125,13 @@
 		2F0FD1E8285345B700C4569F /* StellaUI */ = {
 			isa = PBXGroup;
 			children = (
+				2F0FD21C285345D900C4569F /* API */,
+				2F0FD21B285345CF00C4569F /* Extensions */,
+				2F0FD21A285345C900C4569F /* Models */,
+				2F0FD219285345C000C4569F /* Views */,
 				2F0FD1E9285345B700C4569F /* StellaUIApp.swift */,
-				2F0FD1EB285345B700C4569F /* Persistence.swift */,
-				2F0FD1F0285345B700C4569F /* ContentView.swift */,
 				2F0FD1F2285345B800C4569F /* Assets.xcassets */,
 				2F0FD1F4285345B800C4569F /* StellaUI.entitlements */,
-				2F0FD1ED285345B700C4569F /* StellaUI.xcdatamodeld */,
 				2F0FD1F5285345B800C4569F /* Preview Content */,
 			);
 			path = StellaUI;
@@ -133,6 +160,130 @@
 				2F0FD20C285345B800C4569F /* StellaUIUITestsLaunchTests.swift */,
 			);
 			path = StellaUIUITests;
+			sourceTree = "<group>";
+		};
+		2F0FD219285345C000C4569F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2F0FD22B28534F4F00C4569F /* Onboarding */,
+				2F0FD22228534DB900C4569F /* ChatView */,
+				2F0FD22128534D8F00C4569F /* ProgressView */,
+				2F0FD22028534D8600C4569F /* SOSView */,
+				2F0FD21F28534D7C00C4569F /* CoachView */,
+				2F0FD21E28534D7200C4569F /* LearnView */,
+				2F0FD21D28534D6800C4569F /* PlanView */,
+				2F0FD1F0285345B700C4569F /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2F0FD21A285345C900C4569F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2F0FD1EB285345B700C4569F /* Persistence.swift */,
+				2F0FD1ED285345B700C4569F /* StellaUI.xcdatamodeld */,
+				2F0FD2322853569B00C4569F /* Symptom.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2F0FD21B285345CF00C4569F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2F0FD21C285345D900C4569F /* API */ = {
+			isa = PBXGroup;
+			children = (
+				2F0FD23628538BF200C4569F /* API.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		2F0FD21D28534D6800C4569F /* PlanView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PlanView;
+			sourceTree = "<group>";
+		};
+		2F0FD21E28534D7200C4569F /* LearnView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LearnView;
+			sourceTree = "<group>";
+		};
+		2F0FD21F28534D7C00C4569F /* CoachView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CoachView;
+			sourceTree = "<group>";
+		};
+		2F0FD22028534D8600C4569F /* SOSView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SOSView;
+			sourceTree = "<group>";
+		};
+		2F0FD22128534D8F00C4569F /* ProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				2F0FD22428534E0F00C4569F /* Cells */,
+			);
+			path = ProgressView;
+			sourceTree = "<group>";
+		};
+		2F0FD22228534DB900C4569F /* ChatView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ChatView;
+			sourceTree = "<group>";
+		};
+		2F0FD22428534E0F00C4569F /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				2F0FD22528534E2500C4569F /* YourPlanCell.swift */,
+				2F0FD22728534E4400C4569F /* WellbeingScoreCell.swift */,
+				2F0FD22928534E6E00C4569F /* WellbeingHistoryCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		2F0FD22B28534F4F00C4569F /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				2F0FD2412853BD2A00C4569F /* SymptomsOrder */,
+				2F0FD2402853BD1200C4569F /* SymptomsSelect */,
+				2F0FD2382853BAB000C4569F /* OnboardingContainerView.swift */,
+				2F0FD23A2853BB5B00C4569F /* OnboardingContainerView+Observed.swift */,
+				2F0FD23C2853BC7F00C4569F /* OnboardingOne.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		2F0FD2402853BD1200C4569F /* SymptomsSelect */ = {
+			isa = PBXGroup;
+			children = (
+				2F0FD22C28534F6C00C4569F /* SymptomsSelectView.swift */,
+				2F0FD2302853560100C4569F /* SymptomsView+Observed.swift */,
+				2F0FD22E28534F7F00C4569F /* SymptomsSelectCellView.swift */,
+			);
+			path = SymptomsSelect;
+			sourceTree = "<group>";
+		};
+		2F0FD2412853BD2A00C4569F /* SymptomsOrder */ = {
+			isa = PBXGroup;
+			children = (
+				2F0FD23E2853BCC500C4569F /* SymptomsOrderView.swift */,
+				2F0FD2422853BD5000C4569F /* SymptomsOrderView+Observed.swift */,
+			);
+			path = SymptomsOrder;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,7 +366,7 @@
 				};
 			};
 			buildConfigurationList = 2F0FD1E1285345B700C4569F /* Build configuration list for PBXProject "StellaUI" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -265,10 +416,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F0FD22828534E4400C4569F /* WellbeingScoreCell.swift in Sources */,
+				2F0FD22A28534E6E00C4569F /* WellbeingHistoryCell.swift in Sources */,
+				2F0FD2312853560100C4569F /* SymptomsView+Observed.swift in Sources */,
+				2F0FD22F28534F7F00C4569F /* SymptomsSelectCellView.swift in Sources */,
 				2F0FD1EA285345B700C4569F /* StellaUIApp.swift in Sources */,
+				2F0FD23F2853BCC500C4569F /* SymptomsOrderView.swift in Sources */,
 				2F0FD1EF285345B700C4569F /* StellaUI.xcdatamodeld in Sources */,
+				2F0FD2332853569B00C4569F /* Symptom.swift in Sources */,
+				2F0FD23D2853BC7F00C4569F /* OnboardingOne.swift in Sources */,
+				2F0FD2392853BAB000C4569F /* OnboardingContainerView.swift in Sources */,
+				2F0FD22D28534F6C00C4569F /* SymptomsSelectView.swift in Sources */,
 				2F0FD1F1285345B700C4569F /* ContentView.swift in Sources */,
+				2F0FD2432853BD5000C4569F /* SymptomsOrderView+Observed.swift in Sources */,
 				2F0FD1EC285345B700C4569F /* Persistence.swift in Sources */,
+				2F0FD23728538BF200C4569F /* API.swift in Sources */,
+				2F0FD22628534E2500C4569F /* YourPlanCell.swift in Sources */,
+				2F0FD23B2853BB5B00C4569F /* OnboardingContainerView+Observed.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,6 +519,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -407,6 +573,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -427,14 +595,16 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Stella;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 12.5;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.anapp4that.StellaUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -459,14 +629,16 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Stella;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 12.5;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.anapp4that.StellaUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
