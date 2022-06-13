@@ -7,12 +7,18 @@
 
 import SwiftUI
 
-struct OnboardingOne: View {
+struct NameView: View {
     @Binding var selectedTab: Int
+    
+    @State private var name: String = ""
     
     var body: some View {
         VStack {
-            Text("OnboardingOne")
+            HeadingView(text: "What shall we call you?")
+            StraplineView(text: "Use your real name or anything you fancy")
+            TextField("Name", text: $name)
+                .padding()
+            HorizontalDivider()
             Spacer()
             Button(action: {
                 selectedTab = 2
@@ -28,12 +34,15 @@ struct OnboardingOne: View {
                     .padding(10)
             })
         }
-        
+        .background(
+            Color("Background")
+                .edgesIgnoringSafeArea(.all)
+        )
     }
 }
 
-struct OnboardingOne_Previews: PreviewProvider {
+struct NameView_Previews: PreviewProvider {
     static var previews: some View {
-        OnboardingOne(selectedTab: .constant(1))
+        NameView(selectedTab: .constant(1))
     }
 }

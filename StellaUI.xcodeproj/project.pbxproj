@@ -21,14 +21,20 @@
 		2F0FD22A28534E6E00C4569F /* WellbeingHistoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0FD22928534E6E00C4569F /* WellbeingHistoryCell.swift */; };
 		2F0FD22D28534F6C00C4569F /* SymptomsSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0FD22C28534F6C00C4569F /* SymptomsSelectView.swift */; };
 		2F0FD22F28534F7F00C4569F /* SymptomsSelectCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0FD22E28534F7F00C4569F /* SymptomsSelectCellView.swift */; };
-		2F0FD2312853560100C4569F /* SymptomsView+Observed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0FD2302853560100C4569F /* SymptomsView+Observed.swift */; };
+		2F0FD2312853560100C4569F /* SymptomsSelectView+Observed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0FD2302853560100C4569F /* SymptomsSelectView+Observed.swift */; };
 		2F0FD2332853569B00C4569F /* Symptom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0FD2322853569B00C4569F /* Symptom.swift */; };
 		2F0FD23728538BF200C4569F /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0FD23628538BF200C4569F /* API.swift */; };
 		2F0FD2392853BAB000C4569F /* OnboardingContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0FD2382853BAB000C4569F /* OnboardingContainerView.swift */; };
 		2F0FD23B2853BB5B00C4569F /* OnboardingContainerView+Observed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0FD23A2853BB5B00C4569F /* OnboardingContainerView+Observed.swift */; };
-		2F0FD23D2853BC7F00C4569F /* OnboardingOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0FD23C2853BC7F00C4569F /* OnboardingOne.swift */; };
-		2F0FD23F2853BCC500C4569F /* SymptomsOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0FD23E2853BCC500C4569F /* SymptomsOrderView.swift */; };
+		2F0FD23D2853BC7F00C4569F /* NameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0FD23C2853BC7F00C4569F /* NameView.swift */; };
 		2F0FD2432853BD5000C4569F /* SymptomsOrderView+Observed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0FD2422853BD5000C4569F /* SymptomsOrderView+Observed.swift */; };
+		2F90246B2857208B00A6BAC1 /* HeadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F90246A2857208B00A6BAC1 /* HeadingView.swift */; };
+		2F90246E2857220F00A6BAC1 /* StraplineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F90246D2857220F00A6BAC1 /* StraplineView.swift */; };
+		2F9024702857241600A6BAC1 /* HorizontalDivider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F90246F2857241600A6BAC1 /* HorizontalDivider.swift */; };
+		2F9024722857294E00A6BAC1 /* SymptomsOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9024712857294E00A6BAC1 /* SymptomsOrderView.swift */; };
+		2F90247928572FB700A6BAC1 /* ReorderableForEach.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F90247828572FB700A6BAC1 /* ReorderableForEach.swift */; };
+		2FB748B72854912100DAC5C1 /* Symptoms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB748B62854912100DAC5C1 /* Symptoms.swift */; };
+		2FB748B928549FDF00DAC5C1 /* SymptomsOrderCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB748B828549FDF00DAC5C1 /* SymptomsOrderCellView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,14 +73,20 @@
 		2F0FD22928534E6E00C4569F /* WellbeingHistoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WellbeingHistoryCell.swift; sourceTree = "<group>"; };
 		2F0FD22C28534F6C00C4569F /* SymptomsSelectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymptomsSelectView.swift; sourceTree = "<group>"; };
 		2F0FD22E28534F7F00C4569F /* SymptomsSelectCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymptomsSelectCellView.swift; sourceTree = "<group>"; };
-		2F0FD2302853560100C4569F /* SymptomsView+Observed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SymptomsView+Observed.swift"; sourceTree = "<group>"; };
+		2F0FD2302853560100C4569F /* SymptomsSelectView+Observed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SymptomsSelectView+Observed.swift"; sourceTree = "<group>"; };
 		2F0FD2322853569B00C4569F /* Symptom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Symptom.swift; sourceTree = "<group>"; };
 		2F0FD23628538BF200C4569F /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		2F0FD2382853BAB000C4569F /* OnboardingContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingContainerView.swift; sourceTree = "<group>"; };
 		2F0FD23A2853BB5B00C4569F /* OnboardingContainerView+Observed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OnboardingContainerView+Observed.swift"; sourceTree = "<group>"; };
-		2F0FD23C2853BC7F00C4569F /* OnboardingOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingOne.swift; sourceTree = "<group>"; };
-		2F0FD23E2853BCC500C4569F /* SymptomsOrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymptomsOrderView.swift; sourceTree = "<group>"; };
+		2F0FD23C2853BC7F00C4569F /* NameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameView.swift; sourceTree = "<group>"; };
 		2F0FD2422853BD5000C4569F /* SymptomsOrderView+Observed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SymptomsOrderView+Observed.swift"; sourceTree = "<group>"; };
+		2F90246A2857208B00A6BAC1 /* HeadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadingView.swift; sourceTree = "<group>"; };
+		2F90246D2857220F00A6BAC1 /* StraplineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StraplineView.swift; sourceTree = "<group>"; };
+		2F90246F2857241600A6BAC1 /* HorizontalDivider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalDivider.swift; sourceTree = "<group>"; };
+		2F9024712857294E00A6BAC1 /* SymptomsOrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymptomsOrderView.swift; sourceTree = "<group>"; };
+		2F90247828572FB700A6BAC1 /* ReorderableForEach.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReorderableForEach.swift; sourceTree = "<group>"; };
+		2FB748B62854912100DAC5C1 /* Symptoms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Symptoms.swift; sourceTree = "<group>"; };
+		2FB748B828549FDF00DAC5C1 /* SymptomsOrderCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymptomsOrderCellView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +177,8 @@
 		2F0FD219285345C000C4569F /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				2F90247328572BFA00A6BAC1 /* ReorderableView */,
+				2F90246C285720D300A6BAC1 /* Components */,
 				2F0FD22B28534F4F00C4569F /* Onboarding */,
 				2F0FD22228534DB900C4569F /* ChatView */,
 				2F0FD22128534D8F00C4569F /* ProgressView */,
@@ -183,6 +197,7 @@
 				2F0FD1EB285345B700C4569F /* Persistence.swift */,
 				2F0FD1ED285345B700C4569F /* StellaUI.xcdatamodeld */,
 				2F0FD2322853569B00C4569F /* Symptom.swift */,
+				2FB748B62854912100DAC5C1 /* Symptoms.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -262,7 +277,7 @@
 				2F0FD2402853BD1200C4569F /* SymptomsSelect */,
 				2F0FD2382853BAB000C4569F /* OnboardingContainerView.swift */,
 				2F0FD23A2853BB5B00C4569F /* OnboardingContainerView+Observed.swift */,
-				2F0FD23C2853BC7F00C4569F /* OnboardingOne.swift */,
+				2F90246928571D6B00A6BAC1 /* NameView */,
 			);
 			path = Onboarding;
 			sourceTree = "<group>";
@@ -271,7 +286,7 @@
 			isa = PBXGroup;
 			children = (
 				2F0FD22C28534F6C00C4569F /* SymptomsSelectView.swift */,
-				2F0FD2302853560100C4569F /* SymptomsView+Observed.swift */,
+				2F0FD2302853560100C4569F /* SymptomsSelectView+Observed.swift */,
 				2F0FD22E28534F7F00C4569F /* SymptomsSelectCellView.swift */,
 			);
 			path = SymptomsSelect;
@@ -280,10 +295,37 @@
 		2F0FD2412853BD2A00C4569F /* SymptomsOrder */ = {
 			isa = PBXGroup;
 			children = (
-				2F0FD23E2853BCC500C4569F /* SymptomsOrderView.swift */,
+				2F9024712857294E00A6BAC1 /* SymptomsOrderView.swift */,
 				2F0FD2422853BD5000C4569F /* SymptomsOrderView+Observed.swift */,
+				2FB748B828549FDF00DAC5C1 /* SymptomsOrderCellView.swift */,
 			);
 			path = SymptomsOrder;
+			sourceTree = "<group>";
+		};
+		2F90246928571D6B00A6BAC1 /* NameView */ = {
+			isa = PBXGroup;
+			children = (
+				2F0FD23C2853BC7F00C4569F /* NameView.swift */,
+			);
+			path = NameView;
+			sourceTree = "<group>";
+		};
+		2F90246C285720D300A6BAC1 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				2F90246A2857208B00A6BAC1 /* HeadingView.swift */,
+				2F90246D2857220F00A6BAC1 /* StraplineView.swift */,
+				2F90246F2857241600A6BAC1 /* HorizontalDivider.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		2F90247328572BFA00A6BAC1 /* ReorderableView */ = {
+			isa = PBXGroup;
+			children = (
+				2F90247828572FB700A6BAC1 /* ReorderableForEach.swift */,
+			);
+			path = ReorderableView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -418,20 +460,26 @@
 			files = (
 				2F0FD22828534E4400C4569F /* WellbeingScoreCell.swift in Sources */,
 				2F0FD22A28534E6E00C4569F /* WellbeingHistoryCell.swift in Sources */,
-				2F0FD2312853560100C4569F /* SymptomsView+Observed.swift in Sources */,
+				2F0FD2312853560100C4569F /* SymptomsSelectView+Observed.swift in Sources */,
 				2F0FD22F28534F7F00C4569F /* SymptomsSelectCellView.swift in Sources */,
+				2FB748B928549FDF00DAC5C1 /* SymptomsOrderCellView.swift in Sources */,
 				2F0FD1EA285345B700C4569F /* StellaUIApp.swift in Sources */,
-				2F0FD23F2853BCC500C4569F /* SymptomsOrderView.swift in Sources */,
 				2F0FD1EF285345B700C4569F /* StellaUI.xcdatamodeld in Sources */,
 				2F0FD2332853569B00C4569F /* Symptom.swift in Sources */,
-				2F0FD23D2853BC7F00C4569F /* OnboardingOne.swift in Sources */,
+				2F0FD23D2853BC7F00C4569F /* NameView.swift in Sources */,
 				2F0FD2392853BAB000C4569F /* OnboardingContainerView.swift in Sources */,
+				2F90246B2857208B00A6BAC1 /* HeadingView.swift in Sources */,
 				2F0FD22D28534F6C00C4569F /* SymptomsSelectView.swift in Sources */,
 				2F0FD1F1285345B700C4569F /* ContentView.swift in Sources */,
 				2F0FD2432853BD5000C4569F /* SymptomsOrderView+Observed.swift in Sources */,
 				2F0FD1EC285345B700C4569F /* Persistence.swift in Sources */,
+				2F90246E2857220F00A6BAC1 /* StraplineView.swift in Sources */,
 				2F0FD23728538BF200C4569F /* API.swift in Sources */,
+				2FB748B72854912100DAC5C1 /* Symptoms.swift in Sources */,
+				2F9024702857241600A6BAC1 /* HorizontalDivider.swift in Sources */,
+				2F9024722857294E00A6BAC1 /* SymptomsOrderView.swift in Sources */,
 				2F0FD22628534E2500C4569F /* YourPlanCell.swift in Sources */,
+				2F90247928572FB700A6BAC1 /* ReorderableForEach.swift in Sources */,
 				2F0FD23B2853BB5B00C4569F /* OnboardingContainerView+Observed.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

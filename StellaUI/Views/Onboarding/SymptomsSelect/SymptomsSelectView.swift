@@ -11,7 +11,6 @@ struct SymptomsSelectView: View {
     
     @StateObject private var model = Observed()
     @Binding var selectedTab: Int
-    @State private var selection = Set<Symptom>()
     
     private let columns = [
         GridItem(.adaptive(minimum: 160.0))
@@ -19,20 +18,16 @@ struct SymptomsSelectView: View {
     
     var body: some View {
         VStack {
-            Text("Which symptoms are bothering you?")
-                .font(.custom("Georgia-bold", size: 22, relativeTo: .headline))
-                .multilineTextAlignment(.center)
-                .padding()
-            Text("What you choose helps us create your personalised plan")
-                .font(.custom("Georgia", size: 18, relativeTo: .headline))
-                .multilineTextAlignment(.center)
-                .padding()
+            HeadingView(text: "Which symptoms are bothering you?")
+            StraplineView(text: "What you choose helps us create your personalised plan")
             ScrollView {
                 LazyVGrid(columns: columns, spacing: 8) {
                     ForEach(model.symptoms, id: \.id) { symptom in
-                        SymptomsSelectCellView(imageName: symptom.image,
+                        SymptomsSelectCellView(imageName: symptom.imageName,
                                          title: symptom.title) {
                             print("Selected", symptom.title)
+                            // TODO: If exists remove, else
+                            model.selected.insert(symptom)
                         }
                     }
                 }
@@ -42,6 +37,7 @@ struct SymptomsSelectView: View {
             Text("We'll add more symptoms soon...")
                 .frame(maxWidth: .infinity)
                 .padding(10)
+                .foregroundColor(Color("AppGrey"))
                 .background(Color("BackgroundGreen"))
                 
             Button(action: {
@@ -63,7 +59,7 @@ struct SymptomsSelectView: View {
                 .edgesIgnoringSafeArea(.all)
         )
         .onAppear {
-            model.fetchSymptons()
+            model.fetchSymptoms()
         }
     }
 }

@@ -14,7 +14,7 @@ struct StellaUIApp: App {
     var body: some Scene {
         WindowGroup {
             OnboardingContainerView(selectedTab: 1)
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+               .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
 }

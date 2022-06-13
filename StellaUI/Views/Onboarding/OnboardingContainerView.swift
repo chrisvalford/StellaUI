@@ -14,15 +14,18 @@ struct OnboardingContainerView: View {
     
     var body: some View {
         TabView(selection: $selectedTab) {
-            OnboardingOne(selectedTab: $selectedTab)
+            NameView(selectedTab: $selectedTab)
                 .tabItem {}
                 .tag(1)
             SymptomsSelectView(selectedTab: $selectedTab)
                 .tabItem {}
                 .tag(2)
-            SymptomsOrderView()
+            SymptomsOrderView(selectedTab: $selectedTab)
                 .tabItem {}
                 .tag(3)
+//            TestView(selectedTab: $selectedTab)
+//                .tabItem {}
+//                .tag(4)
         }
         .tabViewStyle(PageTabViewStyle())
         .edgesIgnoringSafeArea(.all)
