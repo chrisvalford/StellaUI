@@ -9,15 +9,18 @@ import CoreData
 import SwiftUI
 
 extension SymptomsOrderView {
+    @MainActor
     class Observed: ObservableObject {
         
         @Published var symptoms: [Symptom] = []
         
         init() {
-            fetchSymptoms()
+            fetchSymptoms(completion: { results in
+                symptoms = results
+            })
         }
         
-        func fetchSymptoms() {
+        func fetchSymptoms(completion: ([Symptom]) -> Void) {
             let context = PersistenceController.shared.container.viewContext
             let fetchRequest: NSFetchRequest<SymptomMO>
             fetchRequest = SymptomMO.fetchRequest()
@@ -29,7 +32,7 @@ extension SymptomsOrderView {
 
             do {
                 let fetched = try context.fetch(fetchRequest)
-                symptoms = fetched.map { $0.symptom }
+                completion(fetched.map { $0.symptom })
             } catch {
                 print(error)
             }

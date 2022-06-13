@@ -13,7 +13,11 @@ struct SymptomsSelectCellView: View {
     var title: String
     
     let onSelect: () -> Void
-    @State private var isSelected = false
+    @State var isSelected = false {
+        didSet {
+            print("\(title) isSelected: \(isSelected ? "true" : "false")")
+        }
+    }
     
     var body: some View {
         Button(action: {

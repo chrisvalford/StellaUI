@@ -56,9 +56,6 @@ struct SymptomsOrderView: View {
             backgroundGradient
                 .edgesIgnoringSafeArea(.all)
         )
-        .onAppear {
-            observed.fetchSymptoms()
-        }
     }
 }
 

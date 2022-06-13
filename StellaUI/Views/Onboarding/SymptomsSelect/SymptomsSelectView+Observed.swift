@@ -5,6 +5,7 @@
 //  Created by Christopher Alford on 10/6/22.
 //
 
+import CoreData
 import SwiftUI
 
 extension SymptomsSelectView {
@@ -14,18 +15,68 @@ extension SymptomsSelectView {
         
         @Published var symptoms: [Symptom] = []
         @Published var selected = Set<Symptom>()
+        private var apiSymptoms: [Symptom] = []
         
-        func fetchSymptoms() {
-            // TODO: Fetch any symptom records from core data
-            //       and merge the JSON
-            Task {
-                do {
-                    symptoms = try await API.fetchSymptoms()
-                } catch {
-                    print("Request failed with error: \(error)")
+        init() {
+            fetchSymptoms(completion: { results in
+                // If we don't have any results return the API symptoms
+                // otherwise merge the two result sets
+                if results.count == 0 {
+                    Task {
+                        do {
+                            symptoms = try await API.fetchSymptoms()
+                        } catch {
+                            print(error)
+                        }
+                    }
+                } else {
+                    Task {
+                        do {
+                            apiSymptoms = try await API.fetchSymptoms()
+                        } catch {
+                            print(error)
+                        }
+                        for symptom in apiSymptoms {
+                            if let index = results.firstIndex(of: symptom) {
+                                symptoms.append(results[index])
+                            } else {
+                                symptoms.append(symptom)
+                            }
+                        }
+                    }
                 }
+            })
+        }
+        
+        func fetchSymptoms(completion: ([Symptom]) -> Void) {
+            let context = PersistenceController.shared.container.viewContext
+            let fetchRequest: NSFetchRequest<SymptomMO>
+            fetchRequest = SymptomMO.fetchRequest()
+
+            fetchRequest.predicate = NSPredicate(
+                format: "selected == YES"
+            )
+            fetchRequest.sortDescriptors = [NSSortDescriptor(key: "sequence", ascending: true)]
+
+            do {
+                let fetched = try context.fetch(fetchRequest)
+                completion(fetched.map { $0.symptom })
+            } catch {
+                print(error)
             }
         }
+        
+//        func fetchSymptoms() {
+//            // TODO: Fetch any symptom records from core data
+//            //       and merge the JSON
+//            Task {
+//                do {
+//                    symptoms = try await API.fetchSymptoms()
+//                } catch {
+//                    print("Request failed with error: \(error)")
+//                }
+//            }
+//        }
         
         func saveState() {
             var index = 1

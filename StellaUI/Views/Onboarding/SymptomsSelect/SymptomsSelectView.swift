@@ -24,11 +24,11 @@ struct SymptomsSelectView: View {
                 LazyVGrid(columns: columns, spacing: 8) {
                     ForEach(model.symptoms, id: \.id) { symptom in
                         SymptomsSelectCellView(imageName: symptom.imageName,
-                                         title: symptom.title) {
+                                               title: symptom.title, onSelect:  {
                             print("Selected", symptom.title)
                             // TODO: If exists remove, else
                             model.selected.insert(symptom)
-                        }
+                        }, isSelected: symptom.selected)
                     }
                 }
             }
@@ -58,9 +58,6 @@ struct SymptomsSelectView: View {
             Color("Background")
                 .edgesIgnoringSafeArea(.all)
         )
-        .onAppear {
-            model.fetchSymptoms()
-        }
     }
 }
 

@@ -273,8 +273,8 @@
 		2F0FD22B28534F4F00C4569F /* Onboarding */ = {
 			isa = PBXGroup;
 			children = (
-				2F0FD2412853BD2A00C4569F /* SymptomsOrder */,
 				2F0FD2402853BD1200C4569F /* SymptomsSelect */,
+				2F0FD2412853BD2A00C4569F /* SymptomsOrder */,
 				2F0FD2382853BAB000C4569F /* OnboardingContainerView.swift */,
 				2F0FD23A2853BB5B00C4569F /* OnboardingContainerView+Observed.swift */,
 				2F90246928571D6B00A6BAC1 /* NameView */,

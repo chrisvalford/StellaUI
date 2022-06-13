@@ -46,8 +46,10 @@ struct Symptom: Identifiable, Decodable {
     }
 }
 
-extension Symptom: Hashable {
-    
+extension Symptom: Hashable, Equatable {
+    static func == (lhs: Symptom, rhs: Symptom) -> Bool {
+        return lhs.id == rhs.id && lhs.title == rhs.title
+    }
 }
 
 
