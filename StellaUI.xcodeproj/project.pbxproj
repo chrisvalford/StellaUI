@@ -33,6 +33,20 @@
 		2F9024702857241600A6BAC1 /* HorizontalDivider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F90246F2857241600A6BAC1 /* HorizontalDivider.swift */; };
 		2F9024722857294E00A6BAC1 /* SymptomsOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9024712857294E00A6BAC1 /* SymptomsOrderView.swift */; };
 		2F90247928572FB700A6BAC1 /* ReorderableForEach.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F90247828572FB700A6BAC1 /* ReorderableForEach.swift */; };
+		2F90247B2858EDF900A6BAC1 /* OpeningGraphicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F90247A2858EDF900A6BAC1 /* OpeningGraphicView.swift */; };
+		2F90247D2858EE2A00A6BAC1 /* SendSymptomsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F90247C2858EE2A00A6BAC1 /* SendSymptomsView.swift */; };
+		2F90247F2858EE4800A6BAC1 /* PlanBuilderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F90247E2858EE4800A6BAC1 /* PlanBuilderView.swift */; };
+		2F9024812858EE6900A6BAC1 /* PlanReadyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9024802858EE6900A6BAC1 /* PlanReadyView.swift */; };
+		2F9024832858EEB300A6BAC1 /* PlanFullView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9024822858EEB300A6BAC1 /* PlanFullView.swift */; };
+		2F9024852858EED500A6BAC1 /* LessonStartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9024842858EED500A6BAC1 /* LessonStartView.swift */; };
+		2F9024872858EEF300A6BAC1 /* LessonStageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9024862858EEF300A6BAC1 /* LessonStageView.swift */; };
+		2F9024892858F19300A6BAC1 /* LessonResourceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9024882858F19300A6BAC1 /* LessonResourceView.swift */; };
+		2F90248C2858F1F600A6BAC1 /* LiveEventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F90248B2858F1F600A6BAC1 /* LiveEventView.swift */; };
+		2F90248E2858F20300A6BAC1 /* LiveEventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F90248D2858F20300A6BAC1 /* LiveEventCell.swift */; };
+		2F9024902858F28D00A6BAC1 /* ChatHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F90248F2858F28D00A6BAC1 /* ChatHistoryView.swift */; };
+		2F9024922858F29C00A6BAC1 /* ChatLiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9024912858F29C00A6BAC1 /* ChatLiveView.swift */; };
+		2F9024942858F2AB00A6BAC1 /* ChatBubbleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9024932858F2AB00A6BAC1 /* ChatBubbleView.swift */; };
+		2F9024962858F2BC00A6BAC1 /* ChatHistoryCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9024952858F2BC00A6BAC1 /* ChatHistoryCellView.swift */; };
 		2FB748B72854912100DAC5C1 /* Symptoms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB748B62854912100DAC5C1 /* Symptoms.swift */; };
 		2FB748B928549FDF00DAC5C1 /* SymptomsOrderCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB748B828549FDF00DAC5C1 /* SymptomsOrderCellView.swift */; };
 /* End PBXBuildFile section */
@@ -85,6 +99,20 @@
 		2F90246F2857241600A6BAC1 /* HorizontalDivider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalDivider.swift; sourceTree = "<group>"; };
 		2F9024712857294E00A6BAC1 /* SymptomsOrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymptomsOrderView.swift; sourceTree = "<group>"; };
 		2F90247828572FB700A6BAC1 /* ReorderableForEach.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReorderableForEach.swift; sourceTree = "<group>"; };
+		2F90247A2858EDF900A6BAC1 /* OpeningGraphicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpeningGraphicView.swift; sourceTree = "<group>"; };
+		2F90247C2858EE2A00A6BAC1 /* SendSymptomsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendSymptomsView.swift; sourceTree = "<group>"; };
+		2F90247E2858EE4800A6BAC1 /* PlanBuilderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanBuilderView.swift; sourceTree = "<group>"; };
+		2F9024802858EE6900A6BAC1 /* PlanReadyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanReadyView.swift; sourceTree = "<group>"; };
+		2F9024822858EEB300A6BAC1 /* PlanFullView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanFullView.swift; sourceTree = "<group>"; };
+		2F9024842858EED500A6BAC1 /* LessonStartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonStartView.swift; sourceTree = "<group>"; };
+		2F9024862858EEF300A6BAC1 /* LessonStageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonStageView.swift; sourceTree = "<group>"; };
+		2F9024882858F19300A6BAC1 /* LessonResourceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonResourceView.swift; sourceTree = "<group>"; };
+		2F90248B2858F1F600A6BAC1 /* LiveEventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveEventView.swift; sourceTree = "<group>"; };
+		2F90248D2858F20300A6BAC1 /* LiveEventCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveEventCell.swift; sourceTree = "<group>"; };
+		2F90248F2858F28D00A6BAC1 /* ChatHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatHistoryView.swift; sourceTree = "<group>"; };
+		2F9024912858F29C00A6BAC1 /* ChatLiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatLiveView.swift; sourceTree = "<group>"; };
+		2F9024932858F2AB00A6BAC1 /* ChatBubbleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBubbleView.swift; sourceTree = "<group>"; };
+		2F9024952858F2BC00A6BAC1 /* ChatHistoryCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatHistoryCellView.swift; sourceTree = "<group>"; };
 		2FB748B62854912100DAC5C1 /* Symptoms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Symptoms.swift; sourceTree = "<group>"; };
 		2FB748B828549FDF00DAC5C1 /* SymptomsOrderCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymptomsOrderCellView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -177,6 +205,7 @@
 		2F0FD219285345C000C4569F /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				2F90248A2858F1D500A6BAC1 /* LiveView */,
 				2F90247328572BFA00A6BAC1 /* ReorderableView */,
 				2F90246C285720D300A6BAC1 /* Components */,
 				2F0FD22B28534F4F00C4569F /* Onboarding */,
@@ -184,7 +213,7 @@
 				2F0FD22128534D8F00C4569F /* ProgressView */,
 				2F0FD22028534D8600C4569F /* SOSView */,
 				2F0FD21F28534D7C00C4569F /* CoachView */,
-				2F0FD21E28534D7200C4569F /* LearnView */,
+				2F0FD21E28534D7200C4569F /* LessonView */,
 				2F0FD21D28534D6800C4569F /* PlanView */,
 				2F0FD1F0285345B700C4569F /* ContentView.swift */,
 			);
@@ -220,15 +249,21 @@
 		2F0FD21D28534D6800C4569F /* PlanView */ = {
 			isa = PBXGroup;
 			children = (
+				2F9024822858EEB300A6BAC1 /* PlanFullView.swift */,
+				2F90247E2858EE4800A6BAC1 /* PlanBuilderView.swift */,
+				2F9024802858EE6900A6BAC1 /* PlanReadyView.swift */,
 			);
 			path = PlanView;
 			sourceTree = "<group>";
 		};
-		2F0FD21E28534D7200C4569F /* LearnView */ = {
+		2F0FD21E28534D7200C4569F /* LessonView */ = {
 			isa = PBXGroup;
 			children = (
+				2F9024862858EEF300A6BAC1 /* LessonStageView.swift */,
+				2F9024842858EED500A6BAC1 /* LessonStartView.swift */,
+				2F9024882858F19300A6BAC1 /* LessonResourceView.swift */,
 			);
-			path = LearnView;
+			path = LessonView;
 			sourceTree = "<group>";
 		};
 		2F0FD21F28534D7C00C4569F /* CoachView */ = {
@@ -256,6 +291,10 @@
 		2F0FD22228534DB900C4569F /* ChatView */ = {
 			isa = PBXGroup;
 			children = (
+				2F90248F2858F28D00A6BAC1 /* ChatHistoryView.swift */,
+				2F9024952858F2BC00A6BAC1 /* ChatHistoryCellView.swift */,
+				2F9024912858F29C00A6BAC1 /* ChatLiveView.swift */,
+				2F9024932858F2AB00A6BAC1 /* ChatBubbleView.swift */,
 			);
 			path = ChatView;
 			sourceTree = "<group>";
@@ -278,6 +317,8 @@
 				2F0FD2382853BAB000C4569F /* OnboardingContainerView.swift */,
 				2F0FD23A2853BB5B00C4569F /* OnboardingContainerView+Observed.swift */,
 				2F90246928571D6B00A6BAC1 /* NameView */,
+				2F90247A2858EDF900A6BAC1 /* OpeningGraphicView.swift */,
+				2F90247C2858EE2A00A6BAC1 /* SendSymptomsView.swift */,
 			);
 			path = Onboarding;
 			sourceTree = "<group>";
@@ -326,6 +367,15 @@
 				2F90247828572FB700A6BAC1 /* ReorderableForEach.swift */,
 			);
 			path = ReorderableView;
+			sourceTree = "<group>";
+		};
+		2F90248A2858F1D500A6BAC1 /* LiveView */ = {
+			isa = PBXGroup;
+			children = (
+				2F90248B2858F1F600A6BAC1 /* LiveEventView.swift */,
+				2F90248D2858F20300A6BAC1 /* LiveEventCell.swift */,
+			);
+			path = LiveView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -469,18 +519,32 @@
 				2F0FD23D2853BC7F00C4569F /* NameView.swift in Sources */,
 				2F0FD2392853BAB000C4569F /* OnboardingContainerView.swift in Sources */,
 				2F90246B2857208B00A6BAC1 /* HeadingView.swift in Sources */,
+				2F90247F2858EE4800A6BAC1 /* PlanBuilderView.swift in Sources */,
 				2F0FD22D28534F6C00C4569F /* SymptomsSelectView.swift in Sources */,
+				2F9024962858F2BC00A6BAC1 /* ChatHistoryCellView.swift in Sources */,
+				2F9024812858EE6900A6BAC1 /* PlanReadyView.swift in Sources */,
+				2F90247B2858EDF900A6BAC1 /* OpeningGraphicView.swift in Sources */,
 				2F0FD1F1285345B700C4569F /* ContentView.swift in Sources */,
 				2F0FD2432853BD5000C4569F /* SymptomsOrderView+Observed.swift in Sources */,
+				2F90248E2858F20300A6BAC1 /* LiveEventCell.swift in Sources */,
+				2F9024942858F2AB00A6BAC1 /* ChatBubbleView.swift in Sources */,
+				2F9024922858F29C00A6BAC1 /* ChatLiveView.swift in Sources */,
 				2F0FD1EC285345B700C4569F /* Persistence.swift in Sources */,
+				2F9024902858F28D00A6BAC1 /* ChatHistoryView.swift in Sources */,
+				2F9024832858EEB300A6BAC1 /* PlanFullView.swift in Sources */,
 				2F90246E2857220F00A6BAC1 /* StraplineView.swift in Sources */,
+				2F9024852858EED500A6BAC1 /* LessonStartView.swift in Sources */,
 				2F0FD23728538BF200C4569F /* API.swift in Sources */,
 				2FB748B72854912100DAC5C1 /* Symptoms.swift in Sources */,
 				2F9024702857241600A6BAC1 /* HorizontalDivider.swift in Sources */,
 				2F9024722857294E00A6BAC1 /* SymptomsOrderView.swift in Sources */,
 				2F0FD22628534E2500C4569F /* YourPlanCell.swift in Sources */,
 				2F90247928572FB700A6BAC1 /* ReorderableForEach.swift in Sources */,
+				2F90248C2858F1F600A6BAC1 /* LiveEventView.swift in Sources */,
+				2F90247D2858EE2A00A6BAC1 /* SendSymptomsView.swift in Sources */,
+				2F9024892858F19300A6BAC1 /* LessonResourceView.swift in Sources */,
 				2F0FD23B2853BB5B00C4569F /* OnboardingContainerView+Observed.swift in Sources */,
+				2F9024872858EEF300A6BAC1 /* LessonStageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

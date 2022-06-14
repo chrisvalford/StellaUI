@@ -5,6 +5,7 @@
 //  Created by Christopher Alford on 10/6/22.
 //
 
+import CoreData
 import Foundation
 
 struct Symptom: Identifiable, Decodable {
@@ -43,6 +44,23 @@ struct Symptom: Identifiable, Decodable {
         self.severity = mo.severity
         self.subtitle = mo.subtitle ?? ""
         self.title = mo.title ?? ""
+    }
+    
+    // TODO: Check to see if the instance of symptom can be updated
+    static func setSelected(id: Int16, to: Bool) {
+        let context = PersistenceController.shared.container.viewContext
+        let fetchRequest: NSFetchRequest<SymptomMO>
+        fetchRequest = SymptomMO.fetchRequest()
+        fetchRequest.predicate = NSPredicate(format: "id == %d", id)
+        do {
+            let fetched = try context.fetch(fetchRequest)
+            if fetched.count == 1 {
+                fetched.first?.selected = to
+            }
+            try context.save()
+        } catch {
+            print(error)
+        }
     }
 }
 

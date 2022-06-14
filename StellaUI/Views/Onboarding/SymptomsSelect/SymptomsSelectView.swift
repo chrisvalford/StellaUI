@@ -26,8 +26,7 @@ struct SymptomsSelectView: View {
                         SymptomsSelectCellView(imageName: symptom.imageName,
                                                title: symptom.title, onSelect:  {
                             print("Selected", symptom.title)
-                            // TODO: If exists remove, else
-                            model.selected.insert(symptom)
+                            model.updateSelected(id: symptom.id)
                         }, isSelected: symptom.selected)
                     }
                 }

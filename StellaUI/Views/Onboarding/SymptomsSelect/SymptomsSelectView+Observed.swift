@@ -39,6 +39,7 @@ extension SymptomsSelectView {
                         for symptom in apiSymptoms {
                             if let index = results.firstIndex(of: symptom) {
                                 symptoms.append(results[index])
+                                selected.insert(results[index])
                             } else {
                                 symptoms.append(symptom)
                             }
@@ -97,5 +98,30 @@ extension SymptomsSelectView {
                 print("Unresolved error \(nsError), \(nsError.userInfo)")
             }
         }
+        
+        func updateSelected(id: Int16) {
+            guard let symptom = symptom(id: id) else { return }
+            // If the symptom is in the Set then it is selected
+            if let _ = selected.firstIndex(of: symptom) {
+                selected.remove(symptom)
+                Symptom.setSelected(id: symptom.id, to: false)
+            } else {
+                selected.insert(symptom)
+                Symptom.setSelected(id: symptom.id, to: true)
+            }
+        }
+        
+        private func symptom(id: Int16) -> Symptom? {
+            if let i = symptoms.firstIndex(where: { $0.id == id }) {
+                return symptoms[i]
+            }
+            return nil
+        }
+    }
+}
+
+extension Set {
+    func save() {
+        print(self.dynamicType)
     }
 }
