@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F0BF67D2859DC6600A2E1F6 /* Set+Persistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0BF67C2859DC6600A2E1F6 /* Set+Persistance.swift */; };
 		2F0FD1EA285345B700C4569F /* StellaUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0FD1E9285345B700C4569F /* StellaUIApp.swift */; };
 		2F0FD1EC285345B700C4569F /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0FD1EB285345B700C4569F /* Persistence.swift */; };
 		2F0FD1EF285345B700C4569F /* StellaUI.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2F0FD1ED285345B700C4569F /* StellaUI.xcdatamodeld */; };
@@ -69,6 +70,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2F0BF67C2859DC6600A2E1F6 /* Set+Persistance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Set+Persistance.swift"; sourceTree = "<group>"; };
 		2F0FD1E6285345B700C4569F /* StellaUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StellaUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F0FD1E9285345B700C4569F /* StellaUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StellaUIApp.swift; sourceTree = "<group>"; };
 		2F0FD1EB285345B700C4569F /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -234,6 +236,7 @@
 		2F0FD21B285345CF00C4569F /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				2F0BF67C2859DC6600A2E1F6 /* Set+Persistance.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -508,6 +511,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F0BF67D2859DC6600A2E1F6 /* Set+Persistance.swift in Sources */,
 				2F0FD22828534E4400C4569F /* WellbeingScoreCell.swift in Sources */,
 				2F0FD22A28534E6E00C4569F /* WellbeingHistoryCell.swift in Sources */,
 				2F0FD2312853560100C4569F /* SymptomsSelectView+Observed.swift in Sources */,

@@ -40,7 +40,7 @@ struct SymptomsSelectView: View {
                 .background(Color("BackgroundGreen"))
                 
             Button(action: {
-                model.saveState()
+                model.selected.persist()
                 selectedTab = 3
             }, label: {
                 Text("NEXT")

@@ -62,6 +62,10 @@ struct Symptom: Identifiable, Decodable {
             print(error)
         }
     }
+
+    func persist() {
+        
+    }
 }
 
 extension Symptom: Hashable, Equatable {
@@ -72,6 +76,7 @@ extension Symptom: Hashable, Equatable {
 
 
 extension SymptomMO {
+    /// Returns a Symptom struct from the Managed Object
     var symptom: Symptom {
         var value = Symptom(id: self.id, imageName: self.imageName, title: self.title)
         value.selected = self.selected
